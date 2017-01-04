@@ -625,7 +625,7 @@ class Object_Shell(Base_Shell):
         except Exception as err:
             error_print(unicode(err))
             raise err
-
+    #test
     def do_plot_surface_error(self, arg, format=''):
         try:
             path = os.path.abspath(parse_args(arg, expected=1)[0])
